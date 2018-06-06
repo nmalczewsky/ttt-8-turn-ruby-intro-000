@@ -7,7 +7,7 @@ def turn(board)
 end
 
 def input_to_index(user_input)
-  int.user_input
+  user_input.int
 end
 
 def display_board(board)
