@@ -8,7 +8,7 @@ def turn(board)
   if valid_move?(board, input) == false
     turn(board)
   else
-    move(board, input, string)
+    move(board, index, string)
   end
 end
 
@@ -16,7 +16,7 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-def move (board, index, string)
+def move(board, index, string)
   board[index] = string
 end
 
