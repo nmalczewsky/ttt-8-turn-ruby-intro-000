@@ -5,7 +5,9 @@ require_relative '../lib/turn'
 def turn(board)
   puts "Please enter 1-9:"
   input = input_to_index(gets)
-  valid_move?(board, input)
+  if valid_move?(board, input) == false
+    turn
+  end
 end
 
 def input_to_index(user_input)
