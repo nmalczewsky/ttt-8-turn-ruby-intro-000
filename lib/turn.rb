@@ -7,8 +7,6 @@ def turn(board)
   input = input_to_index(gets)
   if valid_move?(board, input) == false
     turn(board)
-  else
-    move(board, index, string)
   end
 end
 
