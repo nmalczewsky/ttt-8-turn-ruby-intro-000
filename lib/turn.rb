@@ -11,7 +11,7 @@ def input_to_index(user_input)
 end
 
 def move (board, index, string)
-
+  board[index] = string
 end
 
 def display_board(board)
