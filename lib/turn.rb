@@ -10,7 +10,7 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-def move (boad, index, string)
+def move (board, index, string)
 
 end
 
